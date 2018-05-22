@@ -24,6 +24,9 @@ stages:
   - name: APP_URL
     value: undefined
     type: text
+  - name: DEV_VAR
+    value: ${DEV_VAR}
+    type: text
   jobs:
   - name: Blue-Green Deploy
     type: deployer
