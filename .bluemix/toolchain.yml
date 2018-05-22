@@ -13,9 +13,9 @@ template:
     - sample-repo
   info:
     git url: >-
-      [https://github.com/open-toolchain/simple-toolchain](https://github.com/open-toolchain/simple-toolchain)
+      [https://github.com/RabahZeineddine/toolchain-deploy](https://github.com/RabahZeineddine/toolchain-deploy)
     git branch: >-
-      [master](https://github.com/open-toolchain/simple-toolchain/tree/master)
+      [master](https://github.com/RabahZeineddine/toolchain-deploy/tree/master)
 toolchain:
   name: 'simple-toolchain-{{timestamp}}'
   template:
@@ -58,3 +58,4 @@ form:
     schema:
       $ref: deploy.json
 
+      
