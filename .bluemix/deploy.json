@@ -32,13 +32,18 @@
             },
             "type": "string",
             "pattern": "\\S"
+        },
+        "dev-var": {
+            "description": "Uma variavel de teste de ambiente",
+            "type": "string"
         }
     },
     "required": [
         "prod-region",
         "prod-organization",
         "prod-space",
-        "prod-app-name"
+        "prod-app-name",
+        "dev-var"
     ],
     "form": [
         {
@@ -102,6 +107,11 @@
                 {
                     "type": "select",
                     "key": "prod-space",
+                    "readonly": false
+                },
+                {
+                    "type": "text",
+                    "key": "dev-var",
                     "readonly": false
                 }
             ]
