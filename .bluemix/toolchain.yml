@@ -21,6 +21,7 @@ toolchain:
   template:
     getting_started:
       $ref: "#/messages/template.gettingStarted"
+# Github repo
 services:
   sample-repo:
     service_id: githubpublic
@@ -30,6 +31,7 @@ services:
       type: clone
       has_issues: true
       enable_traceability: true
+  # Pipelines
   sample-build:
     service_id: pipeline
     parameters:
@@ -55,3 +57,4 @@ form:
       prod-app-name: '{{services.sample-repo.parameters.repo_name}}'
     schema:
       $ref: deploy.json
+
