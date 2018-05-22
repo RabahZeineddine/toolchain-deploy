@@ -110,6 +110,22 @@
                     "readonly": false
                 },
                 {
+                    "type": "label",
+                    "title": "Dev Var"
+                },
+                {
+                    "type": "label",
+                    "title": ""
+                },
+                {
+                    "type": "label",
+                    "title": ""
+                },
+                {
+                    "type": "label",
+                    "title": ""
+                },
+                {
                     "type": "text",
                     "key": "dev-var",
                     "readonly": false
